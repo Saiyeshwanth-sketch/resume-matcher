@@ -20,10 +20,7 @@ job_description = st.text_area(
     placeholder="Paste the complete job description here...",
 )
 
-use_ai = st.checkbox(
-    "Also use AI for extra requirements not in my skill list (slower)",
-    value=True,
-)
+use_ai= False
 
 if st.button("Analyze Resume", type="primary"):
 
